@@ -1,0 +1,36 @@
+{
+    "author": "jeff.hardie@hotmail.fr",
+    "dependencies": {},
+    "keywords": [],
+    "name": "coininfo",
+    "pebble": {
+        "displayName": "CoinInfo",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "BTC": 0,
+            "ETH": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/btc.bmp",
+                    "name": "0",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "4055c7e8-6094-4f07-830b-8837dc2ce990",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}

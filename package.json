@@ -7,12 +7,20 @@
         "displayName": "CoinInfo",
         "enableMultiJS": false,
         "messageKeys": {
+            "BCH": 2,
             "BTC": 0,
             "ETH": 1
         },
         "projectType": "native",
         "resources": {
             "media": [
+                {
+                    "file": "images/btc.png",
+                    "menuIcon": true,
+                    "name": "BTC",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
                 {
                     "file": "images/btc.bmp",
                     "name": "0",
@@ -32,5 +40,5 @@
             "watchface": false
         }
     },
-    "version": "1.0.0"
+    "version": "1.1.0"
 }

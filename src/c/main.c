@@ -34,7 +34,7 @@ static void inbox_received_callback(DictionaryIterator *iter, void *context) {
     snprintf(s_tmp, sizeof(s_tmp), "BCH: %s€\n", bchCurrencyTuple->value->cstring);
     strcat(s_text,s_tmp);
   }
-  if(bchCurrencyTuple) {
+  if(ltcCurrencyTuple) {
     snprintf(s_tmp, sizeof(s_tmp), "LTC: %s€", ltcCurrencyTuple->value->cstring);
     strcat(s_text,s_tmp);
   }

@@ -4,12 +4,20 @@
     "keywords": [],
     "name": "coininfo",
     "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
         "displayName": "CoinInfo",
         "enableMultiJS": false,
         "messageKeys": {
             "BCH": 2,
+            "BCH_last": 6,
             "BTC": 0,
-            "ETH": 1
+            "BTC_last": 4,
+            "ETH": 1,
+            "ETH_last": 5,
+            "LTC": 3,
+            "LTC_last": 7
         },
         "projectType": "native",
         "resources": {
